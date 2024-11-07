@@ -1,0 +1,12 @@
+.header{
+    background: rgb(189, 36, 197);
+    color: antiquewhite;
+    padding: 0.2rem;
+    font-size: 2rem;
+    
+    font-weight: lighter;
+}
+.header-heading,.header-text{
+    display: inline;
+    margin: 1rem;
+}

@@ -7,4 +7,10 @@ export default function Header(props){
         </header>
 
     )
+};
+
+//default value
+Header.defaultProps={
+    title:"title11",
+    text:"this is my text"
 }

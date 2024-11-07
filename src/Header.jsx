@@ -1,8 +1,9 @@
-export default function Header(){
+export default function Header(props){
+    const {title,text}=props;
     return(
         <header className="header">
-            <h1 className="header-heading">My website</h1>
-            <p className="header-text">my first website react</p>
+            <h1 className="header-heading">{title}</h1>
+            <p className="header-text">{text}</p>
         </header>
 
     )

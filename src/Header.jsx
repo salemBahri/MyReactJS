@@ -1,4 +1,4 @@
-export default function Header(props){
+const Header=(props)=>{
     const {title,text}=props;
     return(
         <header className="header">
@@ -7,10 +7,10 @@ export default function Header(props){
         </header>
 
     )
-};
 
+}
 //default value
 Header.defaultProps={
     title:"title11",
-    text:"this is my text"
-}
+    text:"this is my text"}
+export default Header;

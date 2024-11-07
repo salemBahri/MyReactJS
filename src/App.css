@@ -29,3 +29,21 @@
     width: 90%;
     margin: 1rem auto;
 }
+.notification{
+    background: rgb(22, 210, 5);
+    padding: 1rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+.button{
+    border: none;
+    outline: none;
+    background: rgb(93, 93, 93);
+    color: wheat;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}

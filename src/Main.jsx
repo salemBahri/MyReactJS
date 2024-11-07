@@ -2,6 +2,7 @@ import {useState} from "react";
 import FirstComponent from "./FirstComponent";
 import Notification from "./Notification";
 import Button from "./Button";
+import Posts from "./Posts";
 
 const Main=(e)=>{
     const handle=()=>{
@@ -20,8 +21,8 @@ const Main=(e)=>{
                 <Notification text="Hi I am new notification"/>
             }
             
-            <h1>Main Component</h1>
-            <FirstComponent />
+            <Posts/>
+
         </main>
     )
 }

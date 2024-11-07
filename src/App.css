@@ -1,3 +1,9 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
 .header{
     background: rgb(189, 36, 197);
     color: antiquewhite;
@@ -9,4 +15,17 @@
 .header-heading,.header-text{
     display: inline;
     margin: 1rem;
+}
+.footer{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.8rem;
+    text-align: center;
+
+}
+.main{
+    flex: 1;
+    background: rgb(255, 161, 53);
+    width: 90%;
+    margin: 1rem auto;
 }

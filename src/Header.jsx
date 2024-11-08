@@ -11,6 +11,6 @@ const Header=(props)=>{
 }
 //default value
 Header.defaultProps={
-    title:"title11",
-    text:"this is my text"}
+    title:"Learn React",
+    text:"I am very excited to learn react js"}
 export default Header;

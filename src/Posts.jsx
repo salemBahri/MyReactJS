@@ -1,11 +1,19 @@
 import Post from './Post'
+import data from './data'
+
 const Posts=()=>{
+    
+    
     return(
         <div className="posts">
-        <Post title="hello" text="text 1"/>
-        <Post title="hello2" text="text 2"/>
-        <Post title="hello3" text="text 3"/>
-        <Post title="hello4" text="text 4"/>
+            {
+                data &&//if data exist then show data else dont show anythings
+                data.map(post=>{
+                    const {id,title,body}=post;
+                    return <Post key={id} title={title} text={body}/>; 
+                })
+            }
+
         </div>
         
 

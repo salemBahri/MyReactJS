@@ -1,8 +1,9 @@
 import {useState} from "react";
-import FirstComponent from "./FirstComponent";
+import { BrowserRouter,Route,Switch,Routes } from "react-router-dom";
 import Notification from "./Notification";
 import Button from "./Button";
 import Posts from "./Posts";
+import Home from "./Home";
 
 const Main=(e)=>{
     const handle=()=>{
@@ -21,7 +22,13 @@ const Main=(e)=>{
                 <Notification text="Hi I am new notification"/>
             }
             
-            <Posts/>
+            <switch>
+                <Routes>
+                <Route path="/" Component={Home} />
+                <Route path="/blog" Component={Posts} />
+                </Routes>
+            </switch>
+            
 
         </main>
     )

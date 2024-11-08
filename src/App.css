@@ -65,4 +65,19 @@
 .post-title{
     font-weight: bold;
 }
+.header-nav{
+    margin: 1rem;
+    display: flex;
+}
 
+.header-nav-item{
+    list-style: none;
+    padding: 0.5rem;
+    text-decoration: none;
+}
+.header-nav-item:hover{
+    background-color: rgba(98, 0, 123, 0.28);
+    color: rgb(0, 0, 0);
+    border-radius: 0.4rem;
+    
+}
